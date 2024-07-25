@@ -1,6 +1,8 @@
 #include "webcam.hpp"
 #include <iostream>
 
+// Test branch "Windows"
+
 int main() {
   // On stock toutes les webcam
   std::vector<webcam::Info> webcams = webcam::getWebcamsInfo();
